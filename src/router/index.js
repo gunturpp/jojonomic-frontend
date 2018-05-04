@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import createTask from '@/components/createTask'
-import test from '@/components/test'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+import mainContent from '@/components/mainContent'
+import login from '@/components/login'
 
 Vue.use(Router)
 
@@ -11,12 +12,12 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'createTask',
-      component: createTask
+      name: 'mainContent',
+      component: mainContent
     }, {
-      path: '/test',
-      name: 'test',
-      component: test
+      path: '/login',
+      name: 'login',
+      component: login
     }
 
   ]
