@@ -33,7 +33,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 URL reference :
 
 Documentations      : https://bootstrap-vue.js.org/docs
-Datepicker          : https://github.com/charliekassel/vuejs-datepicker#demo
 
 !-- 
 learn sources
@@ -51,3 +50,13 @@ https://www.udemy.com/vue-2-crash-course/learn/v4/content :
 5. vee-validate for validation package
 
 complete tutorial https://coursetro.com/courses/23/Vue-Tutorial-in-2018---Learn-Vue.js-by-Example
+
+lifescycle hooks (behav in browser):
+beforeCreate()      // not yet changed
+created()           // fetch from database
+beforeMount()       // call to display
+mounted()           // maniplate DOM with delay or anything u wanna do
+beforeUpdate()      // after eventhandler did
+updated ()          // display changed (same with mounted)
+6. slots feature    // https://www.youtube.com/watch?v=F44OoFk8spg&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa&index=27
+7. http request using vue-resources // https://github.com/pagekit/vue-resource

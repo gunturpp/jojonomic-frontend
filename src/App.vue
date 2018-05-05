@@ -11,7 +11,11 @@
 
 <script>
 export default {
-  
+    data() {
+        return {
+
+        }
+    }
 }
 </script>
 
@@ -27,7 +31,7 @@ export default {
     border: solid;
 }
 
-#components-demo {
+#main-content {
     border: solid;
     padding: 50px;
 }
